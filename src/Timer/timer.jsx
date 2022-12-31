@@ -11,7 +11,7 @@ export const Timer = () => {
 
     function startTimer(n) {
 
-        console.log(typeof n)
+        // console.log(typeof n)
 
         stopTime = dayjs().add(+n, 'second').format('YYYY-MM-DD HH:mm:ss')
         timerInterval = setInterval(getTime, 1000, stopTime)
@@ -40,7 +40,7 @@ export const Timer = () => {
 let newYearTime = dayjs('2023-01-01 00:00').format('YYYY-MM-DD HH:mm:ss')
 let newYearDate = dayjs()
 let newYearCount = newYearDate.diff(newYearTime, 'seconds')
-console.log(newYearCount)
+// console.log(newYearCount)
 // console.log(newYearTime)
 useEffect(() => {
     timerInterval = setInterval(getTime, 1000, newYearTime)
@@ -55,8 +55,8 @@ useEffect(() => {
         timerMinuts = document.getElementById('inputTimerMinutes')
         timerSecond = document.getElementById('inputTimerSecond')
         quantitySecond = ((+timerMinuts.value * 60) + (+timerSecond.value + 2))
-        console.log(quantitySecond)
-        console.log(typeof quantitySecond)
+        // console.log(quantitySecond)
+        // console.log(typeof quantitySecond)
         document.getElementById('footerHead').innerHTML = "осталось"
         startTimer(quantitySecond)
 
