@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.sq {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+.redSquard  {
+  width: 100px;
+  height: 100px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueSquard  {
+  width: 100px;
+  height: 100px;
+  background: blue;
 }

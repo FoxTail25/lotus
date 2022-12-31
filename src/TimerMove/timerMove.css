@@ -1,0 +1,9 @@
+
+.timerTable{
+    height: 200px;
+    background-color: rgb(195, 195, 195);
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Sofia", sans-serif; */
+  font-size: 30px;
+  background-color: rebeccapurple;
 }
 
 code {
