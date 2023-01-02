@@ -1,4 +1,4 @@
-.clock {
+/* .clockT {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,13 +22,30 @@
     width: 60px;
     text-align: center;
     font-family: "Roboto";
+    font-size: 20px;
 }
 .btn {
     height: 50px;
     width: 200px;
     border-radius: 20px;
-
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 .timercount {
  font-size:30px;
 }
+.inputcont {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+#footerHead {
+    font-size: 30px;
+    text-align: center;
+} */
